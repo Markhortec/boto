@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+/* header css start */
+.header1 {
+  margin: auto;
+  padding: 0;
+  padding-top: 2rem;
+  background-color: rgb(0, 183, 255);
+}
+.headericon a i.fa-brands.fa-github,
+.fa-brands.fa-facebook,
+.fa-brands.fa-linkedin,
+.fa-solid.fa-bars {
+  color: #fff;
+  text-shadow: 0.5px 0.5px 2px rgb(19, 226, 216);
+  padding: 1rem;
+  border-radius: 50%;
+}
+#iconbar {
+  display: none;
+}
+#icon1:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#icon2:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#icon3:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#icon4:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#iconbar:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#icon5:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.headerro {
+  align-items: center;
+}
+.companyname h1 {
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 2.012rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+}
+.menuitem {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.2rem;
+  padding-bottom: 0.3rem;
+}
+.menuitem a {
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  padding-right: 2.3rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+}
+.menuitem a:hover {
+  transition: all 0.4s;
+  font-size: 1.5rem;
+  text-shadow: none;
+  text-shadow: 0.5px 0.5px 2px rgb(86, 226, 219);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 4px;
+  text-decoration-color: rgb(255, 255, 255);
+  padding-right: 2rem;
+}
+.menuitem a.active{
+  transition: all 0.4s;
+  font-size: 1.5rem;
+  text-shadow: none;
+  text-shadow: 0.5px 0.5px 2px rgb(86, 226, 219);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 4px;
+  text-decoration-color: rgb(255, 255, 255);
+  padding-right: 2rem;
+}
+.search {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  padding-left: 4.8rem;
+}
+.search a i.fa-solid.fa-magnifying-glass,
+.fa-solid.fa-cart-shopping {
+  color: #fff;
+  text-shadow: 0.5px 0.5px 2px rgb(19, 226, 216);
+  padding: 1rem;
+  border-radius: 50%;
+}
+.colrdiv {
+  background: #048fd1;
+  height: 0.3rem;
+}
+.bsingle{
+  position:relative;
+  display:none;
+  left:53.5%;
+}
+.bsingle a{
+  cursor: pointer;
+  color: white;
+  padding: 4px 8px;
+  font-size: 1rem;
+  background-color: #00d6ff;
+  text-decoration: none;
+}
+.bsingle a:hover{
+  background: rgba(14, 8, 8,.6);
+}
+/* next section */
+.backdiv {
+  padding: 4.5rem 1rem;
+}
+.subbackgrodiv {
+  display: grid;
+  gap: 1.5rem;
+
+  grid-template-areas:
+    "one one  two three"
+    "four five five three";
+}
+.para p {
+  color: #fff;
+  text-shadow: 0.5px 0.5px 2px rgb(19, 226, 216);
+  font-weight: bold;
+}
+
+.blog1 {
+  background-image: url("/img/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-area: one;
+}
+.text1 {
+  padding-top: 14rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.text1 .heading a {
+  text-decoration: none;
+}
+.text1 .heading h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0.5px 0.5px 2px rgb(19, 226, 216);
+  text-transform: capitalize;
+}
+
+.blog2 {
+  background-image: url("/img/fe.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-area: two;
+}
+.text2 {
+  padding-top: 14rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.text2 .heading a {
+  text-decoration: none;
+}
+.text2 .heading h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0.5px 0.5px 2px rgb(19, 226, 216);
+  text-transform: capitalize;
+}
+.blog3 {
+  background-image: url("/img/poster.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-area: three;
+}
+.text3 {
+  padding-top: 40rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.text3 .heading a {
+  text-decoration: none;
+}
+.text3 .heading h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0.5px 0.5px 2px rgb(19, 226, 216);
+  text-transform: capitalize;
+}
+.blog4 {
+  background-image: url("/img/apple.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-area: four;
+}
+
+.text4 {
+  padding-top: 13rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.text4 .heading a {
+  text-decoration: none;
+}
+.text4 .heading h3 {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0.5px 0.5px 2px rgb(19, 226, 216);
+  text-transform: capitalize;
+}
+.blog5 {
+  background-image: url("/img/dddddddd.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-area: five;
+}
+.text5 {
+  padding-top: 13rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.text5 .heading a {
+  text-decoration: none;
+}
+.text5 .heading a h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0.5px 0.5px 2px rgb(19, 226, 216);
+  text-transform: capitalize;
+}
+
+/* about css end */
+/* footer csss starat 
+ */
+.footer {
+  background-color: rgb(0, 183, 255);
+  padding: 1rem;
+}
+.foo {
+  padding: 0;
+  margin: auto;
+}
+.subfoo p {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.span a {
+  color: rgb(20, 23, 177);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .subbackgrodiv {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-areas:
+      "one one two "
+      "three five five"
+      "four four four ";
+  }
+}
+@media screen and (max-width: 768px) {
+  .headerro {
+    justify-content: center;
+    padding-bottom: 3rem;
+  }
+  .headericon {
+    display: none;
+  }
+  .search {
+    width: 100%;
+    justify-content: center;
+    padding-left: 0;
+    position: absolute;
+    top: 23%;
+  }
+  #iconbar {
+    display: block;
+  }
+
+  .menu {
+    left: 45%;
+    position: absolute;
+    z-index: 1;
+    display: none;
+  }
+
+  .menuitem {
+    justify-content: center;
+
+    display: grid;
+  }
+
+  .menuitem a {
+    letter-spacing: 2px;
+    margin-top: 15px;
+    padding: 0;
+    font-size: 0.9rem;
+  }
+  .colrdiv {
+    margin-top: 1.5rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .subfoo p {
+    font-size: 0.9rem;
+  }
+  .companyname {
+    padding-top: 1rem;
+  }
+  .header1 {
+    padding-top: 1rem;
+  }
+  .backdiv {
+    padding: 2rem 1rem;
+  }
+  .subbackgrodiv {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-areas:
+      "one"
+      "two"
+      "three"
+      "four"
+      "five";
+  }
+}
+@media screen and (max-width: 500px) {
+  .subfoo p {
+    font-size: 0.78rem;
+  }
+  .companyname {
+    padding-top: 1rem;
+  }
+  .header1 {
+    padding-top: 0.5rem;
+  }
+}
+@media screen and (max-width: 323px) {
+  .subfoo p {
+    font-size: 0.65rem;
+  }
+  .companyname h1 {
+    font-size: 1.4rem;
+    padding-top: 0.5rem;
+  }
+}

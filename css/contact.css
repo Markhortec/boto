@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+/* header css start */
+.header1 {
+  margin: auto;
+  padding: 0;
+  padding-top: 2rem;
+  background-color: rgb(0, 183, 255);
+}
+.headericon a i.fa-brands.fa-github,
+.fa-brands.fa-facebook,
+.fa-brands.fa-linkedin,
+.fa-solid.fa-bars {
+  color: #fff;
+  text-shadow: 0.5px 0.5px 2px rgb(19, 226, 216);
+  padding: 1rem;
+  border-radius: 50%;
+}
+#iconbar {
+  display: none;
+}
+#icon1:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#icon2:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#icon3:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#icon4:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#iconbar:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#icon5:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.headerro {
+  align-items: center;
+}
+.companyname h1 {
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 2.012rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+}
+.menuitem {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.2rem;
+  padding-bottom: 0.3rem;
+}
+.menuitem a {
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  padding-right: 2.3rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+}
+.menuitem a:hover {
+  transition: all 0.4s;
+  font-size: 1.5rem;
+  text-shadow: none;
+  text-shadow: 0.5px 0.5px 2px rgb(86, 226, 219);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 4px;
+  text-decoration-color: rgb(255, 255, 255);
+  padding-right: 2rem;
+}
+.menuitem a.active{
+  transition: all 0.4s;
+  font-size: 1.5rem;
+  text-shadow: none;
+  text-shadow: 0.5px 0.5px 2px rgb(86, 226, 219);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 4px;
+  text-decoration-color: rgb(255, 255, 255);
+  padding-right: 2rem;
+}
+.search {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  padding-left: 4.8rem;
+}
+.search a i.fa-solid.fa-magnifying-glass,
+.fa-solid.fa-cart-shopping {
+  color: #fff;
+  text-shadow: 0.5px 0.5px 2px rgb(19, 226, 216);
+  padding: 1rem;
+  border-radius: 50%;
+}
+.colrdiv {
+  background: #048fd1;
+  height: 0.3rem;
+}
+.bsingle{
+  position:relative;
+  display:none;
+  left:53.5%;
+}
+.bsingle a{
+  cursor: pointer;
+  color: white;
+  padding: 4px 8px;
+  font-size: 1rem;
+  background-color: #00d6ff;
+  text-decoration: none;
+}
+.bsingle a:hover{
+  background: rgba(14, 8, 8,.6);
+}
+/* header end */
+/* next section */
+/* padding all */
+.contactus {
+  padding-top: 7rem;
+  padding-bottom: 5.5rem;
+}
+/* padding all  */
+.heading h2 {
+  text-shadow: 0.5px 0.5px 2px rgb(0, 0, 0);
+  font-size: 2.22rem;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+}
+.con {
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  width: 400px;
+}
+.icon {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+#icon6,
+#icon7,
+#icon8,
+#icon9 {
+  color: #fff;
+  text-shadow: 0.5px 0.5px 2px rgb(19, 226, 216);
+  padding: 1rem;
+  border-radius: 50%;
+
+  background-color: rgba(0, 183, 255, 0.3);
+}
+#icon6:hover {
+  background-color: rgb(0, 183, 255);
+}
+#icon7:hover {
+  background-color: rgb(0, 183, 255);
+}
+#icon8:hover {
+  background-color: rgb(0, 183, 255);
+}
+#icon9:hover {
+  background-color: rgb(0, 183, 255);
+}
+.address {
+  width: 400px;
+}
+.address p span {
+  padding-top: 0.5rem;
+  font-size: 1.22rem;
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+/* form */
+.form {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+form {
+  width: 800px;
+}
+::placeholder {
+  font-size: 1.26rem;
+  font-family: "Times New Roman", Times, serif;
+}
+form .input input {
+  width: 80%;
+  height: 3rem;
+  text-align: left;
+  text-indent: 1rem;
+  font-size: 1.1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+form .input {
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+}
+.inputarea {
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+}
+.inputarea input {
+  width: 80%;
+  height: 10rem;
+  text-indent: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.btn {
+  padding-left: 0;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+.btn input {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 1rem;
+  color: white;
+  background-color: rgb(0, 183, 255);
+  border: none;
+}
+/* above css end */
+/* footer csss starat 
+ */
+.footer {
+  background-color: rgb(0, 183, 255);
+  padding: 1rem;
+}
+.foo {
+  padding: 0;
+  margin: auto;
+}
+.subfoo p {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.span a {
+  color: rgb(20, 23, 177);
+  text-decoration: none;
+}
+/* media quries  */
+@media screen and (max-width: 860px) {
+  .contactus {
+    padding-left: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .headerro {
+    justify-content: center;
+    padding-bottom: 3rem;
+  }
+  .headericon {
+    display: none;
+  }
+  .search {
+    width: 100%;
+    justify-content: center;
+    padding-left: 0;
+    position: absolute;
+    top: 23%;
+  }
+  #iconbar {
+    display: block;
+  }
+
+  .menu {
+    left: 45%;
+    position: absolute;
+    z-index: 1;
+    display: none;
+  }
+
+  .menuitem {
+    justify-content: center;
+
+    display: grid;
+  }
+
+  .menuitem a {
+    letter-spacing: 2px;
+    margin-top: 15px;
+    padding: 0;
+    font-size: 0.9rem;
+  }
+  .colrdiv {
+    margin-top: 1.5rem;
+  }
+}
+@media screen and (max-width: 636px) {
+  .contactus {
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+  }
+}
+@media screen and (max-width: 578px) {
+  .inputarea input {
+    width: 90%;
+  }
+  form .input input {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 555px) {
+  .con {
+    flex-direction: column;
+  }
+  .address {
+    padding-top: 2.5rem;
+  }
+  .form {
+    padding-top: 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .subfoo p {
+    font-size: 0.9rem;
+  }
+  .companyname {
+    padding-top: 1rem;
+  }
+  .header1 {
+    padding-top: 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .subfoo p {
+    font-size: 0.78rem;
+  }
+  .companyname {
+    padding-top: 1rem;
+  }
+}
+@media screen and (max-width: 447px) {
+  .contactus {
+    padding-left: 0rem;
+    padding-top: 2rem;
+  }
+  .contact{
+    width: 100%;
+
+  }
+  .address{
+    width: 100%;
+  }
+  .form{
+    width: 100%;
+  }
+  .heading {
+    text-align: center;
+  }
+  .icon {
+    text-align: center;
+  }
+  .icon a {
+    padding: 0.5rem;
+  }
+  .address {
+    padding-top: 1.5rem;
+    text-align: center;
+  }
+  form .input {
+    text-align: center;
+  }
+  .inputarea {
+    text-align: center;
+  }
+  .inputarea input {
+    width: 80%;
+  }
+  form .input input {
+    width: 80%;
+  }
+  .btn {
+    padding: 0;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .contactus {
+   padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .heading h2 {
+    font-size: 1.5rem;
+  }
+  .icon {
+    padding-bottom: 0;
+  }
+
+  .address p span {
+    font-size: 0.9rem;
+  }
+
+  .icon a {
+    padding: 0;
+  }
+
+  form .input {
+    padding-top: 0;
+  }
+
+  .inputarea {
+    padding-top: 0;
+  }
+
+}
+@media screen and (max-width: 323px) {
+  .subfoo p {
+    font-size: 0.65rem;
+  }
+  .companyname h1 {
+    font-size: 1.4rem;
+    padding-top: 0.5rem;
+  }
+}
